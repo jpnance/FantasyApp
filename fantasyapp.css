@@ -1,0 +1,10 @@
+iframe#fantasyapp {
+	background-color: white;
+	border: 1px solid black;
+	height: 96%;
+	left: 2%;
+	top: 2%;
+	position: absolute;
+	width: 96%;
+	z-index: 1234567;
+}

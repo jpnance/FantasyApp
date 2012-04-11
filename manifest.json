@@ -6,6 +6,9 @@
 
 	"content_scripts": [
 		{
+			"css": [
+				"fantasyapp.css"
+			],
 			"matches": [
 				"http://games.espn.go.com/flb/*"
 			],
