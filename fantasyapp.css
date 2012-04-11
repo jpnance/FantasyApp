@@ -1,3 +1,13 @@
+div#modal {
+	background-color: black;
+	height: 100%;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1234566;
+}
+
 iframe#fantasyapp {
 	background-color: white;
 	border: 1px solid black;
