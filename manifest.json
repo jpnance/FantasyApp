@@ -1,0 +1,17 @@
+{
+	"name": "FantasyApp",
+	"version": "1.0",
+
+	"description": "Help close the loop of having ESPN.com fantasy games function as self-contained web applications",
+
+	"content_scripts": [
+		{
+			"matches": [
+				"http://games.espn.go.com/flb/*"
+			],
+			"js": [
+				"fantasyapp.js"
+			]
+		}
+	]
+}
