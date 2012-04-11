@@ -12,4 +12,9 @@ $(document).ready(function() {
 
 		return false;
 	});
+
+	$('body').delegate('#modal', 'click', function(e) {
+		$('#fantasyapp, #modal').remove();
+		$('body').css('overflow', 'auto');
+	});
 });
