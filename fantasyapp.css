@@ -4,7 +4,7 @@ iframe#fantasyapp {
 	height: 96%;
 	left: 2%;
 	top: 2%;
-	position: absolute;
+	position: fixed;
 	width: 96%;
 	z-index: 1234567;
 }
