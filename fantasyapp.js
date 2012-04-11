@@ -7,7 +7,7 @@ $(document).ready(function() {
 		var iframe = $('<iframe id="fantasyapp" class="fantasycast">');
 		iframe.attr('src', $this.attr('href'));
 
-		$('body').append(iframe);
+		$('body').append(iframe).css('overflow', 'hidden');
 
 		return false;
 	});
