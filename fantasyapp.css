@@ -1,4 +1,18 @@
-div#modal {
+body.fantasyAppShown {
+	overflow: hidden;
+}
+
+div#fantasyAppModal,
+iframe#fantasyAppIframe {
+	visibility: hidden;
+}
+
+body.fantasyAppShown div#fantasyAppModal,
+body.fantasyAppShown iframe#fantasyAppIframe {
+	visibility: visible;
+}
+
+div#fantasyAppModal {
 	background-color: black;
 	height: 100%;
 	opacity: 0.8;
@@ -8,7 +22,7 @@ div#modal {
 	z-index: 1234566;
 }
 
-iframe#fantasyapp {
+iframe#fantasyAppIframe {
 	background-color: white;
 	border: 1px solid black;
 	box-shadow: 3px 3px 12px #000000;
