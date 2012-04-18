@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var launcher = $('li.games-fancast-btn a, li.statracker a');
+	var launcher = $('li.games-fancast-btn a, li.statracker a, li.stattracker a');
 
 	if (launcher.length > 0) {
 		var modalDiv = $('<div id="fantasyAppModal">');
