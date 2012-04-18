@@ -1,8 +1,8 @@
 {
 	"name": "FantasyApp",
-	"version": "1.0",
+	"version": "1.0.1",
 
-	"description": "Help close the loop of having ESPN.com fantasy games function as self-contained web applications",
+	"description": "Help close the loop of having some prominent fantasy games (ESPN.com and Yahoo!) function as self-contained web applications",
 
 	"content_scripts": [
 		{
