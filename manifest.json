@@ -10,7 +10,8 @@
 				"fantasyapp.css"
 			],
 			"matches": [
-				"http://games.espn.go.com/flb/*"
+				"http://games.espn.go.com/flb/*",
+				"http://baseball.fantasysports.yahoo.com/*"
 			],
 			"js": [
 				"jquery-1.7.2.min.js",

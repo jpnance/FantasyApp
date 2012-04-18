@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var espnLauncher = $('li.games-fancast-btn a');
+	var espnLauncher = $('li.games-fancast-btn a, li.statracker a');
 
 	espnLauncher.attr('onclick', '').unbind('click');
 	espnLauncher.click(function(e) {
